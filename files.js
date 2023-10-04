@@ -19,8 +19,6 @@ app.get('/', (req, res) => {
 
 app.listen(port, () => {
     console.log(`App is live at http://localhost:${port}`);
-
-
 });`,
       },
     },
@@ -32,7 +30,7 @@ app.listen(port, () => {
             "type": "module",
             "dependencies": {
               "express": "latest",
-                                "cors": "latest",
+              "cors": "latest",
 
               "nodemon": "latest"
             },
